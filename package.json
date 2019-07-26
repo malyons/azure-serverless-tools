@@ -1,0 +1,32 @@
+{
+    "name": "azure-serverless-tools",
+    "publisher": "marcuslyons",
+    "icon": "azure-toolbox-pack-logo.png",
+    "homepage": "https://github.com/malyons/azure-serverless-tools",
+    "bugs": {
+        "url": "https://github.com/microsoft/vscode-node-azure-pack/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/malyons/azure-serverless-tools.git"
+    },
+    "keywords": ["Azure", "Serverless", "Terraform", "Azure Functions", "Cosmos"],
+    "displayName": "Azure Serverless Tools",
+    "description": "An extension pack of tools for working with Functions, Pipelines, and more in Azure.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Azure",
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "ms-vscode.azure-account",
+        "ms-azuretools.vscode-azurefunctions",
+        "ms-azuretools.vscode-cosmosdb",
+        "ms-azuretools.vscode-azurestorage",
+        "ms-azuretools.vscode-azureterraform",
+        "ms-azure-devops.azure-pipelines"
+    ]
+}
