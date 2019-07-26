@@ -6,8 +6,6 @@ An extension pack of tools for working with Functions, Pipelines, and more in Az
 
 ## In The Pack
 
-<hr>
-
 ### [Azure Functions](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)
 Create, debug, manage, and deploy Azure Functions directly from VS Code.
 
